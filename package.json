@@ -1,0 +1,21 @@
+{
+  "name": "phmis",
+  "version": "0.0.1",
+  "description": "Sistem pengurusan maklumat Unit Farmasi Hospital Tenom",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "phMIS",
+    "UFHTNM"
+  ],
+  "author": "Ahmad Fetre Bin Mohammad Zime",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.18.2",
+    "express": "^4.16.2",
+    "lodash": "^4.17.4",
+    "mongoose": "^5.0.2"
+  }
+}
