@@ -15,11 +15,7 @@ app.set('view engine', 'handlebars');
 
 app.use(express.static('./public'));
 
-app.get('/', (req, res) => {
-    res.render('home', {
-        title: 'UFHTNM MIS'
-    });
-});
+require('./routers/index')(app);
 
 app.listen(port, () => {
     console.log(`The server has start listening on port ${port}...`);
