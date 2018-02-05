@@ -1,16 +1,77 @@
-<nav class="navbar is-transparent is-fixed-top">
-    <div class="navbar-brand">
-        <a class="navbar-item" href="/">ufhtnmMIS</a>
-    </div>
-    <div class="navbar-menu">
-        <a href="/" class="navbar-item">Home</a>
-        <div class="navbar-item has-dropdown is-hoverable">
-            <a class="navbar-link">Ubat SRQ</a>
-            <div class="navbar-dropdown is-boxed">
-                <a class="navbar-item">Rekod Penggunaan Ubat</a>
-                <a class="navbar-item">Lihat Rekod Penggunaan Ubat</a>
-                <a class="navbar-item">Cari Maklumat Penggunaan Ubat</a>
-            </div>
+<div class="ui top fixed inverted borderless menu">
+    <a href="/" class="header item">ufhtnm MIS</a>
+    <a href="/pusatmaklumat" class="item">Pusat Maklumat</a>
+    <div class="ui simple dropdown item">
+        Rekod Ubat SRQ
+        <i class="dropdown icon"></i>
+        <div class="menu">
+            <a href="/srq/baharu" class="item">Rekod Baharu</a>
+            <a href="/srq/cari" class="item">Carian Rekod</a>
+            <a href="/srq/statistik" class="item">Statistik</a>
         </div>
     </div>
-</nav>
+    <div class="ui simple dropdown item">
+        VAS
+        <i class="dropdown icon"></i>
+        <div class="menu">
+            <a href="/vas/telefonambil" class="item">Telefon & Ambil</a>
+            <a href="/vas/kadtemujanji" class="item">Kad Temujanji</a>
+            <a href="/vas/cepat" class="item">Cepat</a>
+            <a href="/vas/spub" class="item">SPUB</a>
+            <a href="/vas/statistik" class="item">Statistik</a>
+        </div>
+    </div>
+    <div class="ui simple dropdown item">
+        SPUB
+        <i class="dropdown icon"></i>
+        <div class="menu">
+            <a href="/spub/status" class="item">Status Pesakit</a>
+            <a href="/spub/kemaskini" class="item">Kemaskini Maklumat</a>
+            <a href="/spub/statistik" class="item">Statistik</a>
+        </div>
+    </div>
+    <div class="ui simple dropdown item">
+        Galenikal
+        <i class="dropdown icon"></i>
+        <div class="menu">
+            <div class="ui simple dropdown item">
+                Internal
+                <i class="dropdown icon"></i>
+                <div class="menu">
+                    <a href="/galenikal/internal/extemp" class="item">Extemporaneous</a>
+                    <a href="/galenikal/internal/pukal" class="item">Sediaan Pukal</a>
+                </div>
+            </div>
+            <div class="ui simple dropdown item">
+                Eksternal
+                <i class="dropdown icon"></i>
+                <div class="menu">
+                    <a href="/galenikal/eksternal/losyen" class="item">Losyen</a>
+                    <a href="/galenikal/eksternal/krim" class="item">Krim</a>
+                </div>
+            </div>
+            <a href="/" class="item">Statistik</a>
+        </div>
+    </div>
+    <div class="ui simple dropdown item">
+        Prabungkusan
+        <i class="dropdown icon"></i>
+        <div class="menu">
+            <a href="/prabungkus/rekod" class="item">Rekod Prabungkus</a>
+            <a href="/prabungkus/statistik" class="item">Statistik</a>
+        </div>
+    </div>
+    <div class="ui simple dropdown item">
+        Pengurusan Farmasi
+        <i class="dropdown icon"></i>
+        <div class="menu">
+            <a href="/pengurusan/kunci" class="item">Pengurusan Kunci</a>
+            <a href="/pengurusan/hebahan" class="item">Hebahan Maklumat</a>
+        </div>
+    </div>
+    <div class="right menu">
+        <div class="item">
+            <a href="/keluar" class="ui negative button">Log Keluar</a>
+        </div>
+    </div>
+</div>
