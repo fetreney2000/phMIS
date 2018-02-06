@@ -1,6 +1,8 @@
+var title = 'Unit Farmasi Hospital Tenom'
+
 exports.home = (req, res) => {
     res.render('home', {
-        title: 'UFHTNM MIS'
+        title: title
     });
 };
 

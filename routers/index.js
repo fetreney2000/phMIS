@@ -26,5 +26,17 @@ module.exports = (app) => {
     app.get('/spub/kemaskini', spubController.kemaskiniMaklumat);
     app.get('/spub/statistik', spubController.statistik);
 
+    app.get('/galenikal/internal/extemporaneous', galenikalController.extemporaneous);
+    app.get('/galenikal/internal/pukal', galenikalController.pukal);
+    app.get('/galenikal/eksternal/losyen', galenikalController.losyen);
+    app.get('/galenikal/eksternal/krim', galenikalController.krim);
+    app.get('/galenikal/statistik', galenikalController.statistik);
+
+    app.get('/prabungkus/rekod', prabungkusController.rekodPrabungkus);
+    app.get('/prabungkus/statistik', prabungkusController.statistik);
+
+    app.get('/pengurusan/kunci', pengurusanController.pengurusanKunci);
+    app.get('/pengurusan/hebahan', pengurusanController.hebahanMaklumat);
+
     app.get('*', homeController.none);
 };

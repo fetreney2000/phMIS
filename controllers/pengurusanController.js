@@ -1,4 +1,4 @@
-exports.pengurusahKunci = (req, res) => {
+exports.pengurusanKunci = (req, res) => {
     res.render('user/pengurusan/kunci');
 };
 
