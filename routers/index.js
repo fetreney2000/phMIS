@@ -3,6 +3,9 @@ const userController = require('../controllers/userController')
 const srqController = require('../controllers/srqController');
 const vasController = require('../controllers/vasController');
 const spubController = require('../controllers/spubController');
+const galenikalController = require('../controllers/galenikalController');
+const prabungkusanController = require('../controllers/prabungkusanController');
+const pengurusanController = require('../controllers/pengurusanController');
 
 module.exports = (app) => {
     app.get('/', homeController.home);
