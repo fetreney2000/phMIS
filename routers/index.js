@@ -4,7 +4,7 @@ const srqController = require('../controllers/srqController');
 const vasController = require('../controllers/vasController');
 const spubController = require('../controllers/spubController');
 const galenikalController = require('../controllers/galenikalController');
-const prabungkusanController = require('../controllers/prabungkusanController');
+const prabungkusController = require('../controllers/prabungkusController');
 const pengurusanController = require('../controllers/pengurusanController');
 
 module.exports = (app) => {
